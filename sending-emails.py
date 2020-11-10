@@ -17,5 +17,8 @@ except Exception as err:
 finally:
     server.close()
 
+# Tkinter - Building Email Client
 # Create a tkinter application to send emails.
-# Add a place where you will add email address
+# The application should have 3 entry boxes. One for "To Email", one for the subject
+# and another for the actual message. The aaplication needs to have a button to send
+# the email address. You can also add a clear button which will clear all the inputs.
